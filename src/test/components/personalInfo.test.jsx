@@ -1,6 +1,7 @@
 import Enzyme, {shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import PersonalInfo from '../../components/personalInfo';
+import React from "react"
 
 
 Enzyme.configure({adapter: new Adapter()});
